@@ -1,0 +1,18 @@
+Source: deepin-shortcut-viewer
+Section: devel
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends: debhelper (>=9),
+               pkg-config,
+               cmake,
+               qt6-base-dev,
+               qt6-base-private-dev,
+               libdtk6widget-dev
+Standards-Version: 3.9.8
+Homepage: http://www.deepin.org
+
+Package: deepin-shortcut-viewer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: shortcut viewer tools
+ A shortcut viewer tool for deepin.
