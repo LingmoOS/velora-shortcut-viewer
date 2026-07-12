@@ -1,9 +1,9 @@
-Name:           deepin-shortcut-viewer
+Name:           lingmo-shortcut-viewer
 Version:        5.0.5
 Release:        2
 Summary:        Deepin Shortcut Viewer
 License:        GPLv3
-URL:            https://github.com/linuxdeepin/deepin-shortcut-viewer
+URL:            https://github.com/linuxdeepin/lingmo-shortcut-viewer
 Source0:        %{name}_%{version}.orig.tar.xz
 
 BuildRequires:  cmake

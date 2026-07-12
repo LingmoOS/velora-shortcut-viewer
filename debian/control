@@ -1,4 +1,4 @@
-Source: velora-shortcut-viewer
+Source: lingmo-shortcut-viewer
 Section: devel
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
@@ -9,9 +9,9 @@ Build-Depends: debhelper (>=9),
                qt6-base-private-dev,
                libdtk6widget-dev
 Standards-Version: 4.5.0
-Homepage: https://github.com/LingmoOS/velora-shortcut-viewer
+Homepage: https://github.com/LingmoOS/lingmo-shortcut-viewer
 
-Package: deepin-shortcut-viewer
+Package: lingmo-shortcut-viewer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: shortcut viewer tools
